@@ -1,16 +1,69 @@
-# React + Vite
+# 🗂️ Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A role-based task management application built with React.js where 
+Admins assign tasks to Employees and track their progress in real time.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [your-app.vercel.app](https://your-app.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🖼️ Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> Add screenshots here after deployment
+> (Admin Dashboard / Employee Dashboard / Login Page)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+**Admin**
+- Secure login with role-based redirect
+- Create and assign tasks to any employee
+- Set task title, description, category, and due date
+- View all employees with their task counts (New / Active / Completed / Failed)
+
+**Employee**
+- Secure login with personal dashboard
+- View assigned tasks by status
+- Accept new tasks → mark as Completed or Failed
+- Real-time task counter updates
+
+**General**
+- Persistent login session via LocalStorage
+- Protected routes — Admin and Employee see different dashboards
+- Auto-redirect based on role on login/refresh
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Usage                        |
+|-----------------|------------------------------|
+| React.js        | UI & component architecture  |
+| React Router v6 | Protected role-based routing |
+| Context API     | Global auth & state management |
+| LocalStorage    | Session + data persistence   |
+| Vite            | Build tool & dev server      |
+| CSS             | Custom styling               |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/employee-management-system.git
+cd employee-management-system
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+
+### 4. Open in browser
