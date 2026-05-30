@@ -1,0 +1,295 @@
+body{
+    background-color:#07101f;
+    color: #fff;
+}
+.navbar h1{
+    font-size: 40px;
+    text-align: center;
+}
+.navbar_main{
+    color: white;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 50px;
+    background: rgba(128, 128, 128, 0.404);
+}
+.navbar_main a{
+    padding-left: 50px;
+    color: white;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.login_main h1{
+    text-align: center;
+    font-size: 100px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 50px;
+    text-align: start;
+    
+}
+.login_form input{
+    border-radius: 15px;
+    background-color: #0c1828;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.login_form button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: #7c6ef5;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.login_form button:hover{
+    background-color: #7c6ef5;
+    color: #fff;
+    scale: 1.2;
+}
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px;
+    font-size: 30px;
+}
+.headerSection button{
+    width: 150px;
+    padding: 5px;
+    font-size: 30px;
+    background: red;
+    color: white;
+    border: none;
+    height: 50px;
+    margin-top: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.headerSection span{
+    font: bolder Arial, sans-serif;
+}
+.taskmainbar{
+    /* background:red; */
+    padding: 10px 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    gap: 15px;
+    text-align: center;
+}
+.newassigntask{
+    background: purple;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+.assigncompletedtask{
+    background: rgba(20, 229, 20, 0.721);
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+.Inprogess{
+    background: rgba(237, 237, 38, 0.767);
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+.assignfailedtask{
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+.tasklist{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 98%;
+    height: 55%;
+    font-size: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.head h2{
+    background: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tasks{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow:auto;
+}
+.tasks::-webkit-scrollbar{
+    visibility: hidden;
+}
+.newtask{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgb(40, 40, 221);
+    flex-shrink: 0;
+}
+.pending{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background:rgb(232, 92, 92);
+    flex-shrink: 0;
+}
+.completedtask{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgb(91, 211, 80);
+    flex-shrink: 0;
+}
+.activetask{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background:rgb(91, 158, 158);
+    flex-shrink: 0;
+}
+.activebutton{
+    display: flex;
+    justify-content: space-between;
+}
+.activebutton .b1{
+    font-size: 20px;
+    background: green;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+.activebutton .b2{
+    font-size: 20px;
+    background: red;
+    padding: 8px;
+    color: white;
+    border-radius: 10px;
+}
+.b1:hover{
+    scale:0.90
+}
+.b2:hover{
+    scale:0.90
+}
+.failedtask{
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(231, 102, 102, 0.715);
+    flex-shrink: 0;
+}
+.taskdiv{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.createTask input, .createTask button, .createTask label{
+    font-size: 40px;
+    width: 700px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.createTask textarea {
+    font-size: 40px;
+    width: 700px;
+    height: 200px;
+    border-radius: 15px;
+}
+.taskdiv div{
+    display: flex;
+    flex-direction: column; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1c1c1caa;
+    padding: 10px;
+    
+}
+.createTask button{
+    width: 200px;
+    background: rgb(0, 255, 85);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    
+}
+.listTask{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    font-size: 30px;
+    overflow: auto;
+}
+.listTask::-webkit-scrollbar{
+    visibility: hidden;
+}
+.mainThing h1,.createmain h2{
+    text-align: center;
+    font-size: 50px;
+}
+.homeMain h1{
+    text-align: center;
+    font-size: 60px;
+    align-items: center;
+}
+.loginMain h1{
+    text-align: center;
+    font-size: 60px;
+}
+.adminTaskList{
+    display:flex;
+    background-color: rgba(224, 81, 81, 0.701);
+    gap:280px;
+    padding: 10px;
+    font-size: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.adminTaskList h2{
+    width: 190px;
+}
+.insideMap{
+    display:flex;
+    background-color: rgb(214, 146, 127);
+    gap:300px;
+    padding: 10px;
+    font-size: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.insideMap h2{
+    width: 190px;
+}
