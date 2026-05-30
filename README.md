@@ -8,9 +8,9 @@ Admins assign tasks to Employees and track their progress in real time.
 ---
 
 ## 🖼️ Screenshots
+<img width="1895" height="897" alt="image" src="https://github.com/user-attachments/assets/a1e1e672-022b-48e9-a460-c1728ea399a7" />
 
-> Add screenshots here after deployment
-> (Admin Dashboard / Employee Dashboard / Login Page)
+
 
 ---
 
