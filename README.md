@@ -57,7 +57,7 @@ credentials are stored in Local storage
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/employee-management-system.git
+git clone https://github.com/Siddhartha-sid/Employee-Management-System.git
 cd employee-management-system
 ```
 
