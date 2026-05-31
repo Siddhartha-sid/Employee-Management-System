@@ -14,6 +14,11 @@ Admins assign tasks to Employees and track their progress in real time.
 
 ---
 
+credentials are stored in Local storage
+
+
+---
+
 ## ✨ Features
 
 **Admin**
