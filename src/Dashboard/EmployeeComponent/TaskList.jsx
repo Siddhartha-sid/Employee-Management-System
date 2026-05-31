@@ -1,4 +1,3 @@
-import { Bold } from 'lucide-react'
 import React from 'react'
 import Task from './Task'
 import ActiveTask from '../../TaskList/ActiveTask'
