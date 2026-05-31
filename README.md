@@ -3,7 +3,6 @@
 A role-based task management application built with React.js where 
 Admins assign tasks to Employees and track their progress in real time.
 
-🔗 **Live Demo:** [your-app.vercel.app](https://your-app.vercel.app)
 
 ---
 
